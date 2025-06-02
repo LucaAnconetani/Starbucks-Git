@@ -217,3 +217,24 @@ img {
 .cards__button:hover {
 	background: yellow;
 }
+.footer {
+	background-color: black;
+	color: var(--color-icons);
+	flex-direction: column;
+	padding: 32px 0;
+}
+
+.footer__navbar,
+.footer__socialmedia {
+	margin: 25px 15px;
+}
+
+.footer__socialmedia {
+	margin: 18px 18px 18px;
+}
+
+.footer__navbar {
+	color: var(--bg-header);
+	text-decoration: none;
+	font-weight: bolder;
+}
