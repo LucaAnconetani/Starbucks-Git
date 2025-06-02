@@ -56,3 +56,28 @@ img {
 .header__button {
 	display: none;
 }
+.main {
+	margin-top: 100px;
+	padding: 5px 40px 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.main__title {
+	font-size: 55px;
+	line-height: 1.5;
+}
+
+.main__titleGreen {
+	color: var(--bg-header);
+}
+
+.main__description {
+	font-weight: bold;
+	line-height: 1.7;
+}
+
+.main__logo {
+	display: none;
+}
