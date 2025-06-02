@@ -94,3 +94,60 @@ img {
 	padding: var(--padding-block);
 	margin: 0px 10px 0px 10px;
 }
+.contact {
+	background: black;
+	color: var(--color-icons);
+	padding: 40px 15px;
+}
+
+.contact__title {
+	display: flex;
+	justify-content: center;
+	color: var(--bg-header);
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.contact__information {
+	background: var(--bg-header);
+	width: 100%;
+	margin: 25px auto 0;
+}
+
+.contact__form {
+	padding: 5px 5pxs;
+	border-radius: 5px;
+	border: 2px solid var(--bg-header);
+}
+
+.contact__containerInfo {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.contact__label {
+	font-size: 19px;
+	margin: 5px;
+}
+
+.contact__form:focus {
+	background: black;
+	color: white;
+	border: 2px solid yellow;
+}
+
+.contact__form::placeholder {
+	color: var(--bg-header);
+	font-weight: bold;
+}
+
+.contact__button {
+	background: transparent;
+	border: 2px solid var(--color-icons);
+	color: var(--color-icons);
+	margin-top: 15px;
+	border-radius: 10px;
+	padding: 4px 10px;
+	width: 40%;
+}
